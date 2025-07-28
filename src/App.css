@@ -1,0 +1,15 @@
+*{
+    font-family: face;
+}
+.haha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@font-face {
+    font-family: face;
+    src: url(../public/Font/IntelOneMono-Italic-VariableFont_wght.ttf);
+}
