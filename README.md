@@ -1,23 +1,23 @@
 # ToDoList
 
-Une application simple de gestion de tâches (To-Do List) qui vous permet d'ajouter, modifier, supprimer, et marquer des tâches comme terminées ou non terminées. L'application utilise React, Material UI, et les notifications pour une meilleure expérience utilisateur.
+A simple task management application (To-Do List) that allows you to add, edit, delete, and mark tasks as completed or not completed. The app uses React, Material UI, and notifications for a better user experience.
 
-## Aperçu
+## Preview
 
-Vous pouvez voir l'application en ligne ici : [ToDoList en ligne](https://to-do-list-iota-topaz.vercel.app/)
+You can view the app online here: [ToDoList Live](https://to-do-list-iota-topaz.vercel.app/)
 
-## Fonctionnalités
+## Features
 
-- **Ajout de tâches** : Ajoutez de nouvelles tâches en remplissant un formulaire avec un titre et une description.
-- **Modification des tâches** : Modifiez les tâches existantes en cliquant sur le bouton "Éditer".
-- **Suppression des tâches** : Supprimez des tâches en cliquant sur l'icône de la corbeille.
-- **Marquage comme terminé/non terminé** : Cliquez sur l'icône de vérification pour marquer une tâche comme terminée ou non terminée.
-- **Filtrage des tâches** : Filtrez les tâches en fonction de leur statut (terminées, non terminées ou toutes les tâches).
-- **Notifications** : Recevez des notifications lors de l'ajout, de la suppression ou de la modification de tâches.
+- **Add Tasks**: Add new tasks by filling out a form with a title and description.
+- **Edit Tasks**: Edit existing tasks by clicking on the "Edit" button.
+- **Delete Tasks**: Delete tasks by clicking on the trash can icon.
+- **Mark as Completed/Incomplete**: Click on the check icon to mark a task as completed or incomplete.
+- **Filter Tasks**: Filter tasks based on their status (completed, incomplete, or all tasks).
+- **Notifications**: Get notifications when tasks are added, deleted, or modified.
 
 ## Technologies
 
-- **React** : Pour la gestion de l'interface utilisateur.
-- **Material UI** : Pour les composants d'interface utilisateur stylisés comme les boutons et les icônes.
-- **Toolpad Notifications & Dialogs** : Pour gérer les notifications et les dialogues modaux.
-- **Local Storage** : Pour stocker les tâches localement, ce qui permet de conserver les données entre les sessions de l'utilisateur.
+- **React**: For managing the user interface.
+- **Material UI**: For styled UI components such as buttons and icons.
+- **Toolpad Notifications & Dialogs**: For handling notifications and modal dialogs.
+- **Local Storage**: To store tasks locally, allowing the data to persist between user sessions.
