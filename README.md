@@ -1,12 +1,23 @@
-# React + Vite
+# ToDoList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une application simple de gestion de tâches (To-Do List) qui vous permet d'ajouter, modifier, supprimer, et marquer des tâches comme terminées ou non terminées. L'application utilise React, Material UI, et les notifications pour une meilleure expérience utilisateur.
 
-Currently, two official plugins are available:
+## Aperçu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vous pouvez voir l'application en ligne ici : [ToDoList en ligne](https://to-do-list-iota-topaz.vercel.app/)
 
-## Expanding the ESLint configuration
+## Fonctionnalités
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Ajout de tâches** : Ajoutez de nouvelles tâches en remplissant un formulaire avec un titre et une description.
+- **Modification des tâches** : Modifiez les tâches existantes en cliquant sur le bouton "Éditer".
+- **Suppression des tâches** : Supprimez des tâches en cliquant sur l'icône de la corbeille.
+- **Marquage comme terminé/non terminé** : Cliquez sur l'icône de vérification pour marquer une tâche comme terminée ou non terminée.
+- **Filtrage des tâches** : Filtrez les tâches en fonction de leur statut (terminées, non terminées ou toutes les tâches).
+- **Notifications** : Recevez des notifications lors de l'ajout, de la suppression ou de la modification de tâches.
+
+## Technologies
+
+- **React** : Pour la gestion de l'interface utilisateur.
+- **Material UI** : Pour les composants d'interface utilisateur stylisés comme les boutons et les icônes.
+- **Toolpad Notifications & Dialogs** : Pour gérer les notifications et les dialogues modaux.
+- **Local Storage** : Pour stocker les tâches localement, ce qui permet de conserver les données entre les sessions de l'utilisateur.
